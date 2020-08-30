@@ -32,7 +32,7 @@ const CommentBox = () => {
   const commentData = useContext(CommentContext);
   return (
     <div className="comment-box-container">
-      <h1>Comments</h1>
+      <h2>Comments</h2>
       <div className="comment-list">
         {commentData.data ? (
           <Comments comments={commentData} />
